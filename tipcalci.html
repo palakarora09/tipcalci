@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="tipcalci.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&display=swap" rel="stylesheet">
+	
+	<title>TIP</title>
+</head>
+<body>
+	<main id="container">
+		<h1>T I P  C A L C I</h1>
+
+		<section>
+			<div class="bill">
+				<label for="">Bill</label> <!-- label aayegaa -->
+				<input type="number" placeholder="bill to pay" id="yourbill"  /> <!-- label mei kya dalwanaa h  placeholder mei jo pehle se hi text likha hua aata h na id class isliye bnya taki css mei layout chnge kr skee-->
+			</div>
+			<div class="space">
+				<label for="">kitna tip</label>
+				<span id="tippercent">0%</span> 
+			</div>
+				<input type="range" value="0" id="tipinput" class="range" />
+			<div class="space">
+				<span>TIP</span>
+				<span id="tipvalue"></span> <!--js se value print krengee tbhi id bnaa k chor diaa -->
+			</div>
+		<hr/> <!-- create line -->
+				<div class="space">
+					<span>TOTAL</span>
+				<span id="totalwithtip"></span>
+				</div>
+
+		</section> 
+		<section>
+			<div>
+				<div class="space">
+					<label for="">SPLIT BILL</label>
+					<span id="splitvalue"></span>
+				</div>
+				<input type="range" min="1" max="10" value="1" id="splitinput" class="range" />
+			</div>
+			<div class="space">
+				<span>Bill Each</span>
+				<span id="billeach"></span>
+			</div>
+			<div>
+				<div class="space">
+				<span>TIP EACH</span> <!-- span mtlb ek hi line mei ho jo hoye -->
+				<span id="tipeach"></span>
+			</div>
+
+
+		</section>
+	</main>
+	<script src="tipcalci.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

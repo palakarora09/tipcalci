@@ -1,0 +1,80 @@
+html { /*jitna b likha h html mei sab pr */
+	font-size: 5px;
+	color : black;
+}
+main { /*acting like container*/
+	max-width: 25rem 
+	margin: 10rem auto;
+	background: linear-gradient(25deg, #37123C, pink);
+	padding: 5rem 80rem 4rem 20rem; /*clockwise*/
+	
+ 	top:50%;
+ 	width: 400px;
+ 	margin-left: 350px;
+ 	height:  600px;
+ 	margin-top: 50px;
+ 	border-radius: 5rem;
+	box-shadow: 10px -5px 25px 0px #37123C,
+ 		5px -5px 5px 0px #9E0031 ;
+
+}
+h1 {
+	text-align: center;
+	font-size: 10rem;
+	padding-bottom: 2rem;
+	font-family: "Bangers" ,monospace;
+
+}
+*{
+	font-family: "Lobster" ,monospace; /* *daal kr sb ka font secular krdiaa */
+}
+section {
+	background: orange;
+	font-size:5rem;
+	margin-bottom: 2rem;
+	padding: 0 2rem;
+	border-radius: 5rem;
+	box-shadow: inset 0 5px 5px blue;
+	top:20%;
+	width:600px;
+}
+
+section> div{
+	padding: 2rem;
+}
+.bill {
+	display: flex;
+}
+
+.bill label {
+	flex:1;
+}
+.bill input {
+	flex:3;
+}
+
+.range{
+	-webkit-appearance:none;
+	width: 50%;
+	height: 20px;
+	background: white;
+	margin-top: 1rem;
+	border-radius: 0.5rem;
+	outline-color: red;
+}
+
+.space{
+	display: flex;
+	justify-content:space-between; 
+}
+
+
+
+
+
+
+
+
+
+
+
